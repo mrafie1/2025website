@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muhammad's portfolio</title>
+    <script src="https://kit.fontawesome.com/0241af9bf8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="../public/icons/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Madimi One' rel='stylesheet'>
+</head>
+
+
+
+
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div id="nav_container">
+            <div id="nav_logo_name_container">
+                <img src="../public/icons/favicon.ico" alt="logo" style="height: 50px; width: 50px; padding-right: 17px;">
+                <p>Muhammad Rafie</p>
+            </div>
+
+            <div id="nav_content_container">
+                <a href="#about">About</a>
+                <div class="nav_divider"></div>
+                <a href="#projects">Projects</a>
+                <div class="nav_divider"></div>
+                <a href="#contact">Contact</a>
+                <div class="nav_divider"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="main">
+        
+        <div class="divider"></div>
+        <!-- Fun Element -->
+
+        <img src="../public/fun/cat-spinning.gif" alt="funny cat">
+
+        <div class="divider"></div>
+
+        <!-- About Me -->
+
+        <div class="main_container" id="about">
+            
+            <div class="margin_container">
+                
+                <div class="top_bar">
+                    <p>About Me!</p>
+                </div>
+                
+                <div style="width: 100%; height: 58px; background-color: var(--bg_color);"></div>
+
+                <div id="bio_container">
+                    <div id="name_card">
+                        <p style="font-size: var(--section_title); margin: 0;">
+                            Muhammad Rafie
+                        </p>
+                        <p style="font-size: var(--sub_title); margin: 0; line-height: 15px;">
+                            CS and Economics @ UofT
+                        </p>
+                    </div>
+                    <div id="pfp_card">
+                        <img src="../public/icons/favicon.ico" alt="pfp" height="158" width="158" style="border-radius: 50%;">
+                    </div>
+                </div>
+
+                <div style="width: 100%; height: 20px; background-color: var(--bg_color);"></div>
+
+                <div id="info_container">
+                    <p style="font-size: var(--content_text); margin: 0; margin-bottom: 15px;">
+                        I'm a Computer Science Specialist and Economics Major at the University of Toronto St. George.
+                    </p>
+                    <p style="font-size: var(--content_text); margin: 0; margin-bottom: 15px;">
+                        I'm currently learning front-end and back-end development, reading on the basics of ML (I want to create my own model!),
+                        improving my statistics and data-science skills, and working on several projects!
+                    </p>
+                    <p style="font-size: var(--content_text); margin: 0px;">
+                        I'm seeking opportunities where I can apply my programming and problem-solving skills
+                        to applications combining computer science, economics, and entrepreneurship.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Projects -->
+
+        <div class="divider"></div>
+
+        <div class="main_container" id="projects">
+            <div class="margin_container">
+
+                <div class="top_bar">
+                    <p>My Projects!</p>
+                </div>
+                <div style="width: 100%; height: 58px; background-color: var(--bg_color);"></div>
+
+                <div class="project_container">
+
+                    <div class="project_text_container">
+                        
+                        <div class="project_title">
+
+                            <p style="font-size: var(--sub_title); margin: 0px;">Top Hoops</p>
+
+                            <p style="font-size: var(--content); margin: 0px;">Optimal NBA Lineup</p>
+
+                        </div>
+                        <div class="project_desc">
+
+                            <p style="font-size: var(--desc_text)">
+                                I developed the program Top Hoops for a CSC111 group project. The program requires the user to
+                                input a dataset of NBA players and their respective statistics. Then it outputs a heatmap of passes
+                                between players and a graph displaying the interactions between players, their 'teamwork strength', and
+                                the optimal 5-player lineup based on their statistics.
+                            </p>
+
+                        </div>
+
+                        <div class="project_icon_link" style="justify-content: left;">
+                            <a href="https://github.com/mrafie1/csc111project" target="_blank" title="GitHub repo link">
+                                <i class="fa-brands fa-github" style="font-size:32px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project_img_container">
+                        <img src="../public/projects/top_hoops_project.png" alt="top hoops heatmap" style="border-radius: 10px; height: 100%; width: 100%;">
+                    </div>
+                
+                </div>
+
+                <div style="width: 100%; height: 30px; background-color: var(--bg_color);"></div>
+
+                <div class="project_container">
+
+                    <div class="project_img_container">
+                        <img src="../public/projects/snap_back_projects.png" alt="snapback chatbot gui" style="border-radius: 10px; height: 70%; width: 70%;">
+                    </div>
+
+                    <div class="project_text_container">
+
+                        <div class="project_title">
+                            <p style="font-size: var(--sub_title); margin: 0px; text-align: right;">SnapBack</p>
+                        </div>
+
+                        <div class="project_desc">
+
+                            <p style="font-size: var(--desc_text); text-align: right;">
+                                SnapBack was developed during the RCFTA Hack the Future Hackathon as application to improve the customer return process, reduce overall returned items for businesses, and reducing the environmental impact of returns. My group's product featured 24/7 customer service chat and automatic image detection for item returns: all powered with Google Gemini API.
+                            </p>
+
+                        </div>
+
+                        <div class="project_icon_link" style="justify-content: right; margin-top: 38%;">
+                            <a href="https://docs.google.com/presentation/d/1FHCEmKv5i4GNtjDpaygSmhX23gZ7UJM7L1YeAmUMtRc/edit?usp=sharing" target="_blank" title="Google Slides Link">
+                                <i class="fa-solid fa-file" style="font-size:32px; margin-right: 15px;"></i>
+                            </a>
+                            <a href="https://github.com/mrafie1/rcfintechproject" target="_blank" title="GitHub repo link">
+                                <i class="fa-brands fa-github" style="font-size: 32px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+
+        <div class="divider"></div>
+
+        <div class="main_container" id="contact">
+            <div class="margin_container">
+                <div class="top_bar">
+                    <p>My Contact!</p>
+                </div>
+
+                <div style="width: 100%; height: 58px; background-color: var(--bg_color);"></div>
+
+                <div>
+                    <p style="font-size: var(--sub_title); margin-bottom: 0px; text-align: center;">Get in touch</p>
+                    <p style="font-size: var(--content); margin-top: 30px; text-align: center;">
+                        I'm always looking for new opportunities
+                        to collaborate and create new things!
+                        Whether you have a question or just want
+                        to say hi, I'll try my best to get back to you!
+                    </p>
+                </div>
+
+                <div style="width: 100%; height: 58px; background-color: var(--bg_color);"></div>
+
+
+                <!-- Add Links -->
+                <div id="contact_box">
+                    <a href="https://github.com/mrafie1" target="_blank" title="GitHub profile link">
+                        <i class="fa-brands fa-github" style="font-size: 64px; margin-right: 20px; margin-left: 20px;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/muhammad-rafie-620ba9318/" target="_blank" title="LinkedIn profile link">
+                        <i class="fa-brands fa-linkedin" style="font-size: 64px; margin-right: 20px; margin-left: 20px;"></i>
+                    </a>
+                    <a href="mailto:muhammadrafie.mhdr@gmail.com">
+                        <i class="fa-solid fa-envelope" style="font-size: 64px; margin-right: 20px; margin-left: 20px;"></i>
+                    </a>
+                </div>
+
+                <div style="width: 100%; height: 58px; background-color: var(--bg_color);"></div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    <footer>
+        <p style="text-align: center; font-size: var(--content);">&copy; Muhammad Rafie 2025</p>
+    </footer>
+
+</body>
+</html>
